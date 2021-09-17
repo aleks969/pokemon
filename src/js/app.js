@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   const ul = document.querySelector("ul");
   const pokemonCount = 10;
-  const url =  `https://pokeapi.co/api/v2/pokemon?limit=${pokemonCount}`;
+  const url =  `https://pokeapi.co/api/v2/pokemon?limit=10`;
     
   fetch(url)
     .then(response => response.json())
